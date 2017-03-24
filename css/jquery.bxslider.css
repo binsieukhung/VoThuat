@@ -1,0 +1,211 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+/** THEME
+===================================*/
+.slide_one .bx-viewport{background:#333;height:448px !important}
+.slide_news_one li{background:#fff}
+.bx-wrapper .bx-viewport {
+
+	background: #fff;
+	
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(../images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #bbbbbb;
+	text-indent: -9999px;
+	display: block;
+	width: 25px;
+	height: 4px;
+	margin: 0 5px;
+	outline: 0;
+	
+	
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #ed1c24;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	right:141px;
+	background: url(../images/arrow_slide.png) center no-repeat;
+}
+
+.bx-wrapper .bx-next {
+	right: 0;
+	background: url(../images/arrow_slide-right.png)center  no-repeat;
+}
+
+.bx-wrapper .bx-prev:hover {
+	opacity:1;
+}
+
+.bx-wrapper .bx-next:hover {
+	opacity:1;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	opacity:0.7;
+	margin-top: -16px;
+	outline: 0;
+	width: 139px;
+	height: 50px;
+	text-indent: -9999px;
+	z-index: 9999;
+	background-color:#444444;
+	bottom:0
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(../images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(../images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+
+
+.slide_two .bx-wrapper .bx-controls-direction a{top:135px;background:url(../images/arr_slide_video.png) no-repeat;width:40px;height:110px;opacity:1}
+.slide_two .bx-wrapper .bx-controls-direction a:hover{opacity:0.8}
+.slide_two  .bx-wrapper .bx-controls-direction .bx-next{right:0;background-position: -41px 0 ;}
+.slide_two  .bx-wrapper .bx-controls-direction .bx-prev{left:0}
+.slide_news_detail .bx-wrapper .bx-controls-direction a{top:45px}
+.slide_news_detail .bx-wrapper .bx-pager.bx-default-pager a{width:10px;height:10px;border-radius:10px}
+.slide_news_detail  .bx-wrapper .bx-pager,.slide_news_detail  .bx-wrapper .bx-controls-auto{bottom:-40px}
