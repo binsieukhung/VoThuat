@@ -11,7 +11,11 @@ url('fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
 }
 @font-face {
 font-family:'UTM';
+<<<<<<< HEAD
 src:url('fonts/UTM-HelvetIns.ttf') format('truetype');
+=======
+src:url('fonts/UTM HelvetIns.ttf') format('truetype');
+>>>>>>> origin/master
 font-weight:normal;
 font-style:normal;
 }
@@ -52,8 +56,11 @@ url('fonts/robotoslab-bold.ttf') format('truetype'),
 url('fonts/robotoslab-bold.woff') format('woff'),
 url('fonts/robotoslab-bold.svg#robotoslab-bold') format('svg');
 } */
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 .fontRoboto-Black{font-family:'Roboto-Black',Arial, Helvetica, sans-serif;font-weight:normal}
 .fontSFUFuturaBold{font-family:'SFUFuturaBold',Arial, Helvetica, sans-serif;font-weight:normal}
 .fontGeogri{font-family:'Geogri',Arial, Helvetica, sans-serif;font-weight:normal}
@@ -116,12 +123,20 @@ body{background:#222}
 html{font:14px/18px 'robotolabR', Arial, Helvetica, sans-serif;height:100%; width:100%; background:#fff;line-height:normal;}
 input[type="submit"],input[type="button"],input[type="text"] {border:0 none;}
 h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:13px; line-height:normal;display:inline}
+<<<<<<< HEAD
 .grid1290{width:1290px;margin:0 auto}
+=======
+.grid1190{width:1190px;margin:0 auto}
+>>>>>>> origin/master
 .grid640{width:640px;margin:0 auto}
 
 header{background:#fff}
 .top_page{padding:10px 0;position:relative;z-index:2}
+<<<<<<< HEAD
 
+=======
+.logo {margin:0px 15px 10px 20px}
+>>>>>>> origin/master
 .right_top_page{padding:20px 0}
 .box_search{margin-right:22px}
 .navigation{background: #00aeef;
@@ -438,7 +453,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .head_box_news_view{background:url(../images/hed_title_white.png) left no-repeat;padding-left:20px}
 .head_box_news_view *{line-height:24px;color:#fff}
 .col900{width:900px}
+<<<<<<< HEAD
 .w100{width: 100%}
+=======
+>>>>>>> origin/master
 .list_news_view .col30per:last-child{margin-right:0}
 .list_news_view a:hover{color:#FF0}
 .author_news_view{border-top:1px solid #f2494f;margin-top:15px;padding-top:15px}
@@ -459,7 +477,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .time_icon_video{margin-top:-30px;text-align:center}
 .time_video_bottom{margin-top:7px;color:#999;font-size:13px;}
 .icon_video_small{background:url(../images/icon_video_small.png) no-repeat;width:41px;height:41px;display:inline-block;position:absolute;bottom:10px;right:10px;}
+<<<<<<< HEAD
 .bg_footer{border-top:30px solid #222329;background:#27272f;padding:25px 0;}
+=======
+.bg_footer{border-top:35px solid #00aeef;background:black;padding:25px 0;}
+>>>>>>> origin/master
 .footer_right{border-left:1px solid #5b5b5b;margin-left:40px;padding-left:30px;color:#c5c5c5}
 .list_footer li{background:url(../images/icon_dot_red.png) left no-repeat;padding-left:15px;margin-bottom:10px}
 .box_footer{padding-right:50px;border-right:1px solid #5b5b5b;margin-right:30px}
@@ -536,7 +558,11 @@ h3.widget-title:empty {
 	.info_footer p{margin-bottom:5px;line-height:20px}
 .left_info_footer{width:100%;float:left;color:#fff;margin-left:0}
 .dowload_app_footer{border-top:1px solid #666;padding-top:20px}
+<<<<<<< HEAD
 .footer_left{width:30%;margin-right:3%;font-size:13px;padding-right:3%;padding-top:20px;min-height:160px}
+=======
+.footer_left{width:47%;margin-right:3%;font-size:13px;padding-right:3%;padding-top:20px;min-height:160px}
+>>>>>>> origin/master
 .footer_left:last-child{border-right:none;padding-right:0}
 .footer_left p{margin-bottom:7px}
 .footer_left p span{margin-right:15px;display:inline-block}
@@ -553,7 +579,10 @@ h3.widget-title:empty {
     padding: 0 0;
     line-height: 25px;
     margin:0 5px;}
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 .icon_appstore:hover{background:#0269e2;}
 .icon_appstore:hover .fa{color:#fff}
 .icon_android:hover{background:#97c024}
@@ -1899,7 +1928,11 @@ main{background: #f2f2f2;padding-bottom: 15px;}
 .bor_ccc{border: 1px solid #ccc;}
 .pad_top15{padding-top:15px;}
 .pad_top10{padding-top:10px;}
+<<<<<<< HEAD
 .new_out{width: 100%;border:1px solid #c72742; border-bottom: 15px solid #c72742 }
+=======
+.new_out{width: 100%;border:1px solid #c72742;}
+>>>>>>> origin/master
 .title_new_out{font-family: 'UTM'; font-size: 25px; color: #c72742;  border-top: 5px solid #c72742;}
 .logo_new_out{width: 100%; background: #c72742;text-align: center; padding: 7px 0 }
 .logo_new_out img{width: 35%;}
@@ -2586,6 +2619,7 @@ input[type="file"]{position: absolute;top: 0;left: 0; z-index: 2; opacity: 0; he
     .list_news_author .thumb260x170 img{height:auto;width:100%}
 }
 
+<<<<<<< HEAD
 
 /*EDIT*/
 .relative{
@@ -2732,3 +2766,26 @@ input[type="file"]{position: absolute;top: 0;left: 0; z-index: 2; opacity: 0; he
 .bor_buy_bottomR{
     border-bottom: 5px solid #e5192c;
 }
+=======
+/*ADD NEW BY KIEN TRAN*/
+.img_logo{
+    background: #e5192c;
+    padding: 10px;
+    /*margin-top: 0*/
+}
+.menu_header{
+
+}
+.menu_header li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu_header li a{
+    color: #fff;
+    font-family: "UTM";
+    font-size: 15px;
+    line-height: 20px;
+    padding: 30px 0
+}
+.w100{ width: 100%}
+>>>>>>> origin/master
