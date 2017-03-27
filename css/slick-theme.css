@@ -16,148 +16,119 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
-.box_left_home .slick-prev{
-    display: block;
-    position: absolute;
-    top: -200%;
-    left: 12px;
-    width: 35px; height: 55px;
-    background: red;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    border: none;
-    /* z-index: 99999; */
-    text-indent: -9999px;
-    background: url(../photo/pre-button.png)center no-repeat;
-    background-size: 35px 55px;
-    cursor: pointer;
-    /* position: absolute;z-index: 9998;width: 20px;height: 16px;display: block;background: url("photo/lytieulong.png")center no-repeat;
-    padding: 0;border: 0;margin: 0;outline: none;cursor: pointer;text-indent: -9999px;left: 110px;bottom: 15px; */
-}
-.box_left_home .slick-next{
-    display: block;
-    position: absolute;
-    top: -200%;
-    right: 12px;
-    width: 35px; height: 55px;
-    background: red;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    border: none;
-    /* z-index: 99999; */
-    text-indent: -9999px;
-    background: url(../photo/next-button.png)center no-repeat;
-    background-size: 35px 55px;
-    cursor: pointer;
-   /*  position: absolute;z-index: 9998;width: 20px;height: 16px;display: block;background: url("photo/lytieulong.png")center no-repeat;
-    padding: 0;border: 0;margin: 0;outline: none;cursor: pointer;text-indent: -9999px;right: 110px;bottom: 15px; */
-}
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
 
-
-
-.slider .slick-prev{
-    display: block;
     position: absolute;
-    top: 43%;
-    left: 5px;
-    width: 35px; height: 55px;
-    background: red;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
     padding: 0;
-    margin: 0;
-    outline: none;
-    border: none;
-    z-index: 1;
-    text-indent: -9999px;
-    background: url(../photo/pre-button.png)center no-repeat;
-    background-size: 35px 55px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
     cursor: pointer;
-    /* position: absolute;z-index: 9998;width: 20px;height: 16px;display: block;background: url("photo/lytieulong.png")center no-repeat;
-    padding: 0;border: 0;margin: 0;outline: none;cursor: pointer;text-indent: -9999px;left: 110px;bottom: 15px; */
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
 }
-.slider .slick-next{
-    display: block;
-    position: absolute;
-    top: 43%;
-    right: 5px;
-    width: 35px; height: 55px;
-    background: red;
-    padding: 0;
-    margin: 0;
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
     outline: none;
-    border: none;
-    z-index: 1;
-    text-indent: -9999px;
-    background: url(../photo/next-button.png)center no-repeat;
-    background-size: 35px 55px;
-    cursor: pointer;
-   /*  position: absolute;z-index: 9998;width: 20px;height: 16px;display: block;background: url("photo/lytieulong.png")center no-repeat;
-    padding: 0;border: 0;margin: 0;outline: none;cursor: pointer;text-indent: -9999px;right: 110px;bottom: 15px; */
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
 }
 
-.list_youtube .slick-prev{
-    display: block;
-    position: absolute;
-    top: -35px;
-    right: 85px;
-    width: 62px; height: 26px;
-    padding: 7px 19px;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    border: none;
-    z-index: 1;
-    text-indent: -9999px;
-    background: #777777 url(../photo/icon-up.png)center no-repeat;
-    -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg);
-    cursor: pointer;
-    /* position: absolute;z-index: 9998;width: 20px;height: 16px;display: block;background: url("photo/lytieulong.png")center no-repeat;
-    padding: 0;border: 0;margin: 0;outline: none;cursor: pointer;text-indent: -9999px;left: 110px;bottom: 15px; */
-}
-.list_youtube .slick-next{
-    display: block;
-    position: absolute;
-    top: -35px;
-    right: 5px;
-    width: 62px; height: 26px;
-    padding: 7px 19px;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    border: none;
-    z-index: 1;
-    text-indent: -9999px;
-    background: #363636 url(../photo/icon-up.png)center no-repeat;
-    /* background-size: 62px 26px; */
-    cursor: pointer;
-   /*  position: absolute;z-index: 9998;width: 20px;height: 16px;display: block;background: url("photo/lytieulong.png")center no-repeat;
-    padding: 0;border: 0;margin: 0;outline: none;cursor: pointer;text-indent: -9999px;right: 110px;bottom: 15px; */
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
 
-
-
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
 
 /* Dots */
-.slick-slider
+.slick-dotted.slick-slider
 {
-
+    margin-bottom: 30px;
 }
 
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+    bottom: -25px;
 
     display: block;
 
     width: 100%;
     padding: 0;
+    margin: 0;
 
     list-style: none;
 
@@ -231,3 +202,22 @@
     opacity: .75;
     color: black;
 }
+.slides  .slick-prev,.slides  .slick-prev {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 999;
+}
+.slides .slick-next,.slides .slick-next{
+    position: absolute;
+    top: 40%;
+    right: 6px;
+    z-index: 999
+}
+.slides .slick-next:before{
+    content: url('../images/ico-next.png');
+}
+.slides .slick-prev:before{
+    content: url('../images/ico-prev.png');
+}
+.thumbnail .slick-current{border-top: 4px solid red}
