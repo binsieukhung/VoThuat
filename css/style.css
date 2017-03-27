@@ -111,7 +111,7 @@ img{border:0 none}
 .fl{float:left;}
 .fr{float:right;}
 a{text-decoration:none; color:#333; cursor:pointer;display:inline-block}
-a:hover{color:#e5192c;text-decoration:none}
+a:hover{color:#bd2024;text-decoration:none}
 body{background:#222}
 html{font:14px/18px 'robotolabR', Arial, Helvetica, sans-serif;height:100%; width:100%; background:#fff;line-height:normal;}
 input[type="submit"],input[type="button"],input[type="text"] {border:0 none;}
@@ -1910,7 +1910,7 @@ main{background: #f2f2f2;padding-bottom: 15px;}
 .pad_bottom20{padding-bottom:20px;}
 .widget-content a i{-webkit-transition: all 0.6s ;}
 .widget-content a i:hover{color: #00aeef;}
-.video_gym{width: 100%; background: #eeeeee;}
+.video_gym{width: 100%; background: #00aeef;}
 .title_video_gym{font-family: 'UTM'; font-size: 28px;   color: #fff;}
 .icon-down img{margin-left: 5px;  padding: 7px 19px; background: #363636; border-radius: 4px; cursor: pointer; -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg);}
 .icon-up img{padding: 7px 19px; background:  #777777; border-radius: 4px;cursor: pointer;}
@@ -2852,13 +2852,3 @@ input[type="file"]{position: absolute;top: 0;left: 0; z-index: 2; opacity: 0; he
      border: 1px solid #3e434c;border-radius: 20%; cursor: pointer;
     position: fixed; bottom: 190px; right: 5px
 }
-<<<<<<< HEAD
-.menu_header li a{
-    color: #fff;
-    font-family: "UTM";
-    font-size: 15px;
-    line-height: 20px;
-    padding: 30px 0
-}
-=======
->>>>>>> 07842b157326c2570b7fa4cfb09234fe3e4a38d0
