@@ -35,7 +35,7 @@
 }
 .menu_header li{
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 9px;
 }
 .menu_header li a{
     color: #fff;
@@ -45,7 +45,6 @@
     padding: 30px 0
 }
 .relative{position: relative;}
-.w100{ width: 100%}
 .bwhite{background: #fff}
 .logo {margin:0px 15px 10px 20px}
 .register ul li{
@@ -72,7 +71,6 @@
 .slides a, .thumbnail a, .slides img, .thumbnail img{width: 100%}
 .thumbnail{background:#222329;}
 .slick-current li{background: red}
-.grid1290{width: 1290px; margin: 0 auto}
 .img_content{position: absolute;top:270px;left:260px;text-align: center;width: 60%}
 .f40{font-size: 40px;line-height: 45px}
 .f10{font-size: 10px; line-height: 15px}

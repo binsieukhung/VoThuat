@@ -12,7 +12,7 @@ url('fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
 /*EDIT URL FONT BY KIEN TRAN*/
 @font-face {
 font-family:'UTM';
-src:url('fonts/UTM HelvetIns.ttf') format('truetype');
+src:url('fonts/UTM-HelvetIns.ttf') format('truetype');
 font-weight:normal;
 font-style:normal;
 }
@@ -115,7 +115,7 @@ body{background:#222}
 html{font:14px/18px 'robotolabR', Arial, Helvetica, sans-serif;height:100%; width:100%; background:#fff;line-height:normal;}
 input[type="submit"],input[type="button"],input[type="text"] {border:0 none;}
 h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:13px; line-height:normal;display:inline}
-.grid1190{width:1190px;margin:0 auto}
+.grid1290{width:1290px;margin:0 auto}
 .grid640{width:640px;margin:0 auto}
 .pad_bot_20{padding-bottom: 20px}
 .pad_bot_10{padding-bottom: 10px}
@@ -210,7 +210,6 @@ h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:13px; line-height:normal;display
 
 header{background:#fff}
 .top_page{padding:10px 0;position:relative;z-index:2}
-
 .right_top_page{padding:20px 0}
 .box_search{margin-right:22px}
 .navigation{background: #00aeef;
@@ -277,7 +276,7 @@ input[type="button"]{cursor:pointer}
 .notify_site {height:19px;overflow:hidden}
 .notify_site strong{color:#ff0000;text-decoration:none;/* padding-left: 22px; */}
 .list_notify {  margin-left:40px    ;  width: 80%;  overflow: hidden;}
-.list_notify a,.list_notify span,.list_notify label,.list_notify div{display:inline-block;margin-right:40px;border-right:1px solid #ddd;padding-right:40px;font-size:14px;vertical-align:top;}
+.list_notify a,.list_notify span,.list_notify label,.list_notify div{display:inline-block;margin-right:40px;padding-right:40px;font-size:14px;vertical-align:top;}
 .list_notify li:last-child a,.list_notify span:last-child,.list_notify label:last-child,.list_notify div:last-child{display:inline-block;margin-right:0;border-right:none;padding-right:0;}
 .list_social > li{margin-left:10px;padding-left:10px;border-left:1px solid #ddd;display:inline-block;position:relative}
 .list_social > li:first-child{border-left:none}
@@ -527,6 +526,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .head_box_news_view{background:url(../images/hed_title_white.png) left no-repeat;padding-left:20px}
 .head_box_news_view *{line-height:24px;color:#fff}
 .col900{width:900px}
+.w100{width: 100%}
 .list_news_view .col30per:last-child{margin-right:0}
 .list_news_view a:hover{color:#FF0}
 .author_news_view{border-top:1px solid #f2494f;margin-top:15px;padding-top:15px}
@@ -2188,7 +2188,7 @@ input[type="file"]{position: absolute;top: 0;left: 0; z-index: 2; opacity: 0; he
     .title_list_top_news{font-size:14px}
     .grid1190 {width:1060px}
     .menu_main li a{padding:7px 9px}
-    .list_notify{width:450px}
+    /*.list_notify{width:450px}*/
     .col830{width:700px}
     .col260{width:210px}
     .thumb260x170{width:100%}
@@ -2671,4 +2671,168 @@ input[type="file"]{position: absolute;top: 0;left: 0; z-index: 2; opacity: 0; he
     .letsop-title a{width:100%;font-size:18px}
     .list_news_author .thumb260x170{width:100%;height:auto;margin-right:0}
     .list_news_author .thumb260x170 img{height:auto;width:100%}
+/*EDIT*/
+.relative{
+    position: relative ;
+}
+.absolute{position: absolute;}
+.br_logo_fter{
+    background-color: #e5192c;
+    padding:18px 33px;
+}
+.logo_fter{
+    padding-left: 485px;
+    margin-top: -65px;
+
+  
+
+}
+.text_fter{
+    padding-top: 95px;
+    padding-left: 70px;
+    padding-right: 118px;
+}
+
+@font-face{
+    font-family: 'robotoslabR';
+    src:url(fonts/RobotoSlab-Regular.ttf);
+  
+}
+.fontroslbR{font-family: 'robotoslabR',Arial, Helvetica, sans-serif;font-weight:normal}
+.f700{
+    font-weight: bold;
+}
+.clfff{
+    color: #fff;
+}
+.ftr_left{width:40%;margin-right:3%;font-size:13px;padding-right:3%;padding-top:20px;min-height:160px}
+.icon_app
+{
+    font-size: 40px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #555;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 20px;
+
+}
+.icon_app .fa {
+    margin: 0;
+    color: #999; }
+
+.icon_app .fa:hover{
+    color: #fff;
+}
+.icon_a:hover{
+    background-color:#0269e2;
+}
+.icon_a{
+    width: 80px;
+    height: 80px;
+    
+
+
+}
+.icon_b:hover{
+    background:#97c024;
+}
+.icon_b{
+    width: 80px;
+    height: 80px;
+
+
+}
+.pic_gradient{
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.88)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.88)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradientrgba(0, 0, 0, 0), rgba(0, 0, 0, 0.88)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.88)); /* Standard syntax (must be last) */
+    top:0; left: 0; width: 100%; height: 250px
+}
+
+@font-face{
+    font-family: 'helvetI';
+    src:url(fonts/UTM-HelvetIns.ttf);
+  
+}
+
+.fonthelI{font-family: 'helvetI',Arial, Helvetica, sans-serif;font-weight:normal}
+
+.title_gra{
+    background-color: #222329;
+}
+@font-face{
+    font-family: 'NotoS';
+    src:url(fonts/NotoSerif-Regular.ttf);
+  
+}
+.fontnotoS{font-family: 'NotoS',Arial, Helvetica, sans-serif;font-weight:normal}
+
+.block{ display: block }
+.list_ul_over{
+    background: #fff;
+    border: 1px solid #ddd; 
+    width: 100px;
+    height: 300px;
+    overflow-x: hidden;
+    width: 100%;
+}
+@font-face{
+    font-family: 'NotoSB';
+    src:url(fonts/NotoSerif-Bold.ttf);
+  
+}
+.fontnotoSB{font-family: 'NotoSB',Arial, Helvetica, sans-serif;font-weight:normal}
+.pad_left180{
+    padding-left: 180px;
+}
+
+.bor_bottom_dd{
+    border-bottom: 1px solid #ddd;
+}
+.buy_top{
+    background-color: #e5192c;
+    
+}
+.logo_buy{
+    
+   padding: 5px 20px;
+   
+}
+.scroll{overflow: auto;}
+.scroll::-webkit-scrollbar{width: 2px;}
+.scroll::-webkit-scrollbar-thumb{background-color: #aaa;height: 20px;}
+.scroll::-webkit-scrollbar-track-piece{background: #F7F7F7;}
+.btn_shop{
+    background-color: #b30611;
+    padding: 10px 15px;
+    bottom: 39px;
+    left: 38%;
+
+}
+.bor_buy_bottomR{
+    border-bottom: 5px solid #e5192c;
+}
+/*ADD NEW BY KIEN TRAN*/
+.img_logo{
+    background: #e5192c;
+    padding: 10px;
+    /*margin-top: 0*/
+}
+.menu_header{
+
+}
+.menu_header li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu_header li a{
+    color: #fff;
+    font-family: "UTM";
+    font-size: 15px;
+    line-height: 20px;
+    padding: 30px 0
 }
