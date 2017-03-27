@@ -36,12 +36,13 @@ $(document).ready(function(){
 	  autoHover:true,
 	  
 	});
-	
-	$('.list_notify').show().marquee({
+});
+	$('.list_notify').marquee({
 		//speed in milliseconds of the marquee
-		duration: 20000,
+		duration: 13000,
 		//gap in pixels between the tickers
-		gap: 20,
+		gap: 0,
+
 		//time in milliseconds before the marquee will start animating
 		delayBeforeStart: 0,
 		//'left' or 'right'
@@ -50,7 +51,34 @@ $(document).ready(function(){
 		duplicated: true,
 		pauseOnHover:1
 	});
+
+
+// // SLICK
+$(document).ready(function(){
+ $('.slides').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  draggable: false,
+  arrows: true,
+  fade: true,
+  asNavFor: '.thumbnail',
+  dots:false,
+  // autoplay:true,
+  autoplaySpeed:1000,
 });
+$('.thumbnail').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slides',
+  dots: false,
+  centerMode: false,
+  focusOnSelect: true,
+  draggable: true,
+
+	});
+});	
+
+
 $(function(){
 	  $('#scroll_news_hot').slimScroll({
 		  height: '430px',
